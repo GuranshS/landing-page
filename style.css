@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.head {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 105px auto 200px;
+    padding-top: 15px;
+}
+
+.header p {
+    align-self: flex-end;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+
+.links {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: right;
+}
+
+.main {
+    display: flex;
+    margin: auto;
+}
+.main h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+img {
+    margin: auto 100px auto 20px;
+}
+
+.title {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    margin:auto 20px auto 200px;
+}
+.title button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    font-size: 20px;
+    border: 0px;
+    color: white;
+    padding: 6px 3px;
+    width: 21%;
+    font-weight: 600;
+}
