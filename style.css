@@ -36,6 +36,7 @@
 .main {
     display: flex;
     margin: auto;
+    padding-top: 100px;
 }
 .main h1 {
     font-size: 48px;
@@ -61,4 +62,42 @@ img {
     padding: 6px 3px;
     width: 21%;
     font-weight: 600;
+}
+
+
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    font-size: 28px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.tabs div {
+    border: 3px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+.subtext {
+    display: flex;
+    gap: 45px;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+
+
+}
+
+.subtext p {
+    height: 150px;
+    width: 150px;
 }
