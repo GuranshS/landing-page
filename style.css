@@ -101,3 +101,42 @@ img {
     height: 150px;
     width: 150px;
 }
+
+.quote {
+    display: flex;
+    background-color: #e5e7e5;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+    flex-wrap: wrap;
+}
+
+.quote :first-child {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.blue-box {
+    display: flex;
+    margin: 100px 240px 100px 240px;
+    padding: 40px 60px 40px 60px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: space-between;
+    color: white;
+}
+
+.blue-box button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 4px solid white;
+    color: white;
+    padding: 6px 3px;
+    width: 21%;
+    font-weight: 600;
+}
