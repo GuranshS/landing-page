@@ -140,3 +140,12 @@ img {
     width: 21%;
     font-weight: 600;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 60px;    
+    justify-content: center;
+    align-items: center;
+}
